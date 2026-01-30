@@ -1,1 +1,2 @@
-# Python-Flask
+# Main description
+This is an python repository on which i will develop things related to flask, while im writing this down i still don't have much ideas of how it will be or what i will develop, but we will see what happens.
