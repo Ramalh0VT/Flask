@@ -1,0 +1,13 @@
+<html>
+    <head><title>Initial website page</title></head>
+    <body>
+        <img src="{{url_for('static', filename='images/app.png') }}" alt="app" width="250">
+        <h1>Welcome to the initial page of my website!</h1>
+        <p>Hey there! Here you can find a functional web application, that uses both html and python to work!</p>
+        <h2>What you can do here?</h2>
+        <p>At the moment you can't really do much, the main purpose of this application is so i can enhance my system developing skills, and at the moment i don't see a reason to add alot of text, because i already know well how to use my current html knowledge.</p>
+        <h2>But hey! You can check a page with info about me!</h2>
+        <a href="{{ url_for('about_me') }}">Click here to see information about me!</a>
+        <h3>Made by Gustavo Ramalho da Silva</h3>
+    </body>
+</html>

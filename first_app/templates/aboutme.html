@@ -1,0 +1,21 @@
+<html>
+    <head><title>Information about me!</title></head>
+    <body>
+    <h1>Hello! This website tells some stuff about me!</h1>
+        <h2>Hobbies i have</h2>
+        <img src="{{url_for('static', filename='images/robloxlogo.jpg') }}" alt="roblox logo" width="250">
+        <br><br>
+        <p>Well, some of the hobbies i have are system developing, playing videogames (my favorite one is roblox), i also like walking, talking to my friends, journaling, and other ones such as drawing.</p>
+        <h2>Why im developing this</h2>
+        <img src="{{url_for('static', filename='images/development.jpg') }}" alt="development" width="250">
+        <br><br>
+        <p>The reason behind me developing this website (as well as my other repo's on GitHub), is mainly to enhance my system developing skills, but it's also for me to enhance my english skills and to use it as an hobby, since i like alot.</p>
+        <h2>How i made this website work?</h2>
+        <img src="{{url_for('static', filename='images/gear.png') }}" alt="gear" width="250">
+        <br><br>
+        <p>This website works by using a framework called "Flask", i made an environment on this repo so it can work, and flask can be integrated with python, which makes developing both front and back end way easier than it would have to be to not use any framework. The reason i opted to use flask was to do things my way and be able to learn things properly.</p>
+        <h2>Thanks for reading :D</h2>
+        <a href="{{ url_for('home') }}">Click here to go back to the initial page.</a>
+    </body>
+
+</html>
